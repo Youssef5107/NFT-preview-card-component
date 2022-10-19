@@ -9,12 +9,17 @@
 
 @font-face {
 	font-family: regular;
-	src: url(../Outfit/static/Outfit-Regular.ttf);
+	src: url(../../assets/fonts/Outfit/static/Outfit-Regular.ttf);
 }
 
 @font-face {
 	font-family: bold;
-	src: url(../Outfit/static/Outfit-Bold.ttf);
+	src: url(../../assets/fonts/Outfit/static/Outfit-Bold.ttf);
+}
+
+@font-face {
+	font-family: light;
+	src: url(../../assets/fonts/Outfit/static/Outfit-Light.ttf);
 }
 
 body {
@@ -44,4 +49,22 @@ body {
 	width: 265px;
 	border-radius: 15px;
 
+}
+
+.content {
+	margin-top: 15px;
+	padding-left: 20px;
+}
+
+.content-title {
+	font-family: bold;
+	color: white;
+	font-size: 16px;
+}
+
+.content-text {
+	margin-top: 15px;
+	color: var(--Soft-blue);
+	font-family: light;
+	font-size: 15px;
 }
