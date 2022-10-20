@@ -59,12 +59,11 @@ body {
 	opacity: .6;
 }
 
-.img-hover {
+.img-area {
 	width: 30px;
 	height: 30px;
 	position: relative;
-	right: 10px;
-	bottom: 10px;
+
 }
 
 .img-hover:hover {
